@@ -4,6 +4,14 @@ import bannerImg from "./../assets/banner.png"
 const Banner = () => {
     return (
         <section className="home" id="home">
+             <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+
+            </ul>
+            
             <div className="home-content">
                 <h1>Hi , I'm <span>Megha</span></h1>
                 <div className="text-animate">
@@ -20,9 +28,7 @@ const Banner = () => {
                     <a href="#contact" className="btn">Hire Me</a>
                     <a href="#about" className="btn">Let's Talk</a>
                 </div>
-            </div>
-
-            <div className="home-sci">
+                <div className="home-sci">
                 {/* <a href="https://github.com/megha8191" target="_blank"
                 ><i className="bx bxl-github"></i>
                 </a> */}
@@ -33,6 +39,9 @@ const Banner = () => {
                 ><i className="bx bx-envelope"></i>
                 </a>
             </div>
+            </div>
+            
+
             <div className="dev-pic">
                 <img src={bannerImg} alt="developer_image" />
             </div>
