@@ -4,7 +4,7 @@ import bannerImg from "./../assets/banner.png"
 const Banner = () => {
     return (
         <section className="home" id="home">
-             <ul class="circles">
+             <ul className="circles">
                     <li></li>
                     <li></li>
                     <li></li>

@@ -8,7 +8,7 @@ const About = () => {
         <div className='about-row '>
           <div>
             <h2 className="heading" style={{ marginBottom: "2px" }}>About <span>Me</span></h2>
-            <p> I look forward to sharing my journey with you! </p>
+            
           </div>
           {/* <div className="about-img">
             <img src={myImg} alt="" />
@@ -20,12 +20,12 @@ const About = () => {
         </div>
         <div className='timeline-row'>
         <div className='timeline-col'>
-          <p className='title' style={{marginLeft:"90px"}}>Experience</p>
+          <p className='title' >Experience</p>
           <ul className="timeline">
             <li className="timeline-event">
               <label className="timeline-event-icon"></label>
               <div className="timeline-event-copy">
-                <p className="timeline-event-thumbnail">November 2022 - December 2023</p>
+                <p className="timeline-event-thumbnail">Nov 2022 - Dec 2023</p>
                 <h3>Frontend Developer</h3>
                 <h4>Swap IT Hub, Mohali, India</h4>
                 <ul>
@@ -41,7 +41,7 @@ const About = () => {
             <li className="timeline-event">
               <label className="timeline-event-icon"></label>
               <div className="timeline-event-copy">
-                <p className="timeline-event-thumbnail">February 2021 - November 2022</p>
+                <p className="timeline-event-thumbnail">Feb 2021 - Nov 2022</p>
                 <h3>Web Designer</h3>
                 <h4>TecHangouts, Mohali, India</h4>
                 <ul>
@@ -54,6 +54,14 @@ const About = () => {
                 </ul>
               </div>
             </li>
+            <li className="timeline-event">
+              <label className="timeline-event-icon"></label>
+              <div className="timeline-event-copy">
+                <p className="timeline-event-thumbnail">Aug 2020 - Jan 2021</p>
+                <h3>Frontend Development Internship</h3>
+                <h4>RSWEBS Technologies, Remote</h4>
+              </div>
+            </li>
 
           </ul>
         </div>
@@ -62,47 +70,15 @@ const About = () => {
           <ul className='timeline education-timeline'>
             <li>
               <p className="timeline-event-thumbnail">2021-2024</p>
-              <h3>Bachelor of Computer Applications</h3>
-              <p>IGNOU</p>
+              <h3>Bachelor of Computer Applications (BCA)</h3>
+              <p>Indira Gandhi National University, IGNOU</p>
             </li>
             <li>
-              <p className="timeline-event-thumbnail">Dec 2020</p>
-              <h3>Web Designer Internship</h3>
-              <p>RSWEBS Technologies</p>
-            </li>
-            <li>
-              <p className="timeline-event-thumbnail">Mar 2020</p>
-              <h3>12,CBSE</h3>
-              <p>SD Public School, Yamunanagar</p>
+              <p className="timeline-event-thumbnail">2020</p>
+              <h3>High School, CBSE</h3>
+              <p>SD Public School, Yamunanagar, Haryana</p>
             </li>
           </ul>
-          {/* <ul className="timeline education-timeline">
-            <li className="timeline-event">
-              <label className="timeline-event-icon"></label>
-              <div className="timeline-event-copy">
-                <p className="timeline-event-thumbnail">2021-2024</p>
-                <h3>Bachelor of Computer Applications</h3>
-                <h4>IGNOU</h4>
-              </div>
-            </li>
-            <li className="timeline-event">
-              <label className="timeline-event-icon"></label>
-              <div className="timeline-event-copy">
-                <p className="timeline-event-thumbnail">Dec 2020</p>
-                <h3>Web Designer Internship</h3>
-                <h4>RSWEBS Technologies</h4>
-              </div>
-            </li>
-            <li className="timeline-event">
-              <label className="timeline-event-icon"></label>
-              <div className="timeline-event-copy">
-                <p className="timeline-event-thumbnail">Mar 2020</p>
-                <h3>High School</h3>
-                <h4>SD Public School, Yamunanagar, Haryana</h4>
-              </div>
-            </li>
-
-          </ul> */}
         </div>
         </div>
 
