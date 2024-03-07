@@ -13,7 +13,7 @@
 :root {
     --bg-color: #081b29;
     --second-bg-color: #112e42;
-    --text-color: #ededed;
+    --text-color: #0d0d0d;
     --main-color: #5471c9;
 }
 
@@ -30,7 +30,8 @@ button {
 }
 
 body {
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
+    background-color: #fff;
     color: var(--text-color);
 }
 
@@ -57,7 +58,7 @@ section {
     top: 0;
     width: 100%;
     padding: 15px 2rem;
-    background: var(--bg-color);
+    background: #f4f5fe;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -259,7 +260,7 @@ section {
 }
 
 .about {
-    background-color:#f2f2f2;
+    background-color:#f4f5fe;
 }
 .white-section ,
 .white-section .heading{
@@ -547,6 +548,12 @@ section {
 @media (max-width:991px) {
     .navbar {
         gap: 18px;
+    }
+    .timeline-row{
+        grid-template-columns: 1fr;
+        max-width: 768px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .container {
