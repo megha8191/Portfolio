@@ -16,7 +16,7 @@
     --bg-color: #081b29;
     --second-bg-color: #112e42;
     --text-color: #ededed;
-    --main-color: #00abf0;
+    --main-color: #5471c9;
 }
 
 html {
@@ -58,7 +58,7 @@ section {
     left: 0;
     top: 0;
     width: 100%;
-    padding: 2rem;
+    padding: 15px 2rem;
     background: var(--bg-color);
     display: flex;
     justify-content: center;
@@ -98,8 +98,11 @@ section {
     display: flex;
     align-items: center;
     min-height: 100vh;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-between;
-    padding: 40px 9%;
+    padding: 60px 9%;
     position: relative;
     overflow: hidden;
 }
@@ -127,7 +130,7 @@ section {
     font-size: 3.2rem;
     font-weight: 700;
     color: transparent;
-    -webkit-text-stroke: .1px var(--main-color);
+    -webkit-text-stroke: .6px var(--main-color);
     background-image: linear-gradient(var(--main-color), var(--main-color));
     background-repeat: no-repeat;
     -webkit-background-clip: text;
@@ -161,15 +164,15 @@ section {
     overflow: hidden;
     transition: .5s;
     display: inline-block;
-    padding: 5px 20px;
-    font-size: 1.8rem;
+    padding: 10px 20px;
+    font-size:18px;
     letter-spacing: .1rem;
-    font-weight: 600;
+    font-weight: 500;
     background: var(--main-color);
     position: relative;
     color: #fff;
-    border-radius: 8px;
-    border: .2rem solid var(--main-color);
+    border-radius: 3px;
+    border: 1px solid var(--main-color);
 }
 
 .btn::before {
@@ -199,7 +202,7 @@ section {
 }
 
 .btn:nth-child(2):hover {
-    color: var(--bg-color);
+    color: #fff;
 }
 
 .btn-box .btn:nth-child(2)::before {
@@ -258,8 +261,11 @@ section {
 }
 
 .about {
-    /* background: linear-gradient(180deg, var(--second-bg-color), var(--bg-color)); */
-    background-color: var(--second-bg-color);
+    background-color:#f2f2f2;
+}
+.white-section ,
+.white-section .heading{
+    color:#000;
 }
 
 .about-row {
@@ -354,8 +360,8 @@ section {
 
 .circles li:nth-child(1) {
     right: 0;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     top: 60%;
     animation-delay: 0s;
 }
@@ -366,31 +372,32 @@ section {
     height: 30px;
     top: 100%;
     animation-delay: 2s;
-    animation-duration: 12s;
+    animation-duration:19;
 }
 
 .circles li:nth-child(3) {
     left: 30px;
     top: 00%;
-    width: 20px;
+    width: 14px;
     animation: animate-circle2 30s linear infinite;
-    height: 20px;
+    height: 14px;
     animation-delay: 0s;
 }
 
 /* Styling */
 .timeline {
-    margin: 30px auto 0;
+    margin: 30px auto 0 -10px;
     position: relative;
     max-width: 730px;
     list-style: none;
 }
 .timeline-row{
-
+    display: grid;
+    grid-template-columns: 1fr 400px;
 }
 .education-timeline{
-    max-width: 660px;
     margin-bottom: 30px;
+    margin-left: 0; 
 }
 .education-timeline::before{
     display: none;
@@ -407,12 +414,12 @@ section {
 }
 
 .title{
-    color: var(--main-color);
+    color: var(--bg-color);
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 6px;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     margin-top:25px;
 
 }
@@ -433,11 +440,11 @@ section {
 
 .timeline-event:hover .timeline-event-icon {
     transform: rotate(-45deg);
-    background-color: #a83279;
+    background-color: var(--main-color);
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 640px 0 0 0 #a83279;
+    box-shadow: inset 640px 0 0 0 var(--main-color);
 }
 
 .timeline-event-copy {
@@ -446,6 +453,7 @@ section {
     top: -30px;
     left: 64px;
     max-width: calc(100% - 70px);
+    margin-bottom: 10px;
 }
 
 .timeline-event-copy h3 {
@@ -469,7 +477,7 @@ section {
     transition: transform 0.2s ease-in;
     transform: rotate(45deg);
     background-color: var(--bg-color);
-    outline: 10px solid var(--second-bg-color);
+    outline: 10px solid #f2f2f2;
     display: block;
     margin: 8px 8px 8px -8px;
     position: absolute;
@@ -490,7 +498,7 @@ section {
     padding: 4px 16px 3.2px 16px;
 }
 .timeline-event li {
-    color: #b2b2b2;
+    color: #6e6e6e;
     margin-left: 20px;
     font-size: 14px;
     list-style: square;
@@ -689,7 +697,7 @@ section {
 
     0% {
         transform: translateY(0) rotate(0deg);
-        opacity: 0.3;
+        opacity: 0.2;
     }
 
     100% {

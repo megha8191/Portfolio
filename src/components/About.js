@@ -3,11 +3,11 @@ import myImg from "../assets/megha.jpg"
 
 const About = () => {
   return (
-    <section className="about" id="about">
+    <section className="about white-section" id="about">
       <div className='container'>
         <div className='about-row '>
           <div>
-            <h2 className="heading" style={{ marginBottom: "2px" }}>About <span>Me</span></h2>
+            {/* <h2 className="heading" style={{ marginBottom: "2px" }}>About <span>Me</span></h2> */}
             
           </div>
           {/* <div className="about-img">
