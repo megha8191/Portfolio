@@ -3,7 +3,7 @@ import bootstrap from "../assets/bootstrap.png"
 import html from  "../assets/html.png"
 import javascript from "../assets/javascript.png"
 import react from "../assets/React.png"
-import css from "../assets/css.png"
+import cssimg from "../assets/css.png"
 import tailwind from "../assets/tailwind.png"
 import jquery from "../assets/jquery.png"
 import git from "../assets/git.png"
@@ -20,7 +20,7 @@ const skillSet = [
     "text":"HTML"
   },
   {
-    "img": css,
+    "img": cssimg,
     "text":"CSS"
   },
   {
