@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <header className="header">
+        <header className="header" id='header'>
             <div className="bx bx-menu" id="menu-icon"></div>
             <ul className="navbar">
                 <li><a href="#home" className="active">Home</a></li>

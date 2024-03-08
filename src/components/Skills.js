@@ -3,6 +3,15 @@ import bootstrap from "../assets/bootstrap.png"
 import html from  "../assets/html.png"
 import javascript from "../assets/javascript.png"
 import react from "../assets/React.png"
+import css from "../assets/css.png"
+import tailwind from "../assets/tailwind.png"
+import jquery from "../assets/jquery.png"
+import git from "../assets/git.png"
+import wordpress from "../assets/wordpress.png"
+import figma from "../assets/figma2.png"
+import reduxToolkit from "../assets/redux-toolkit.png"
+import other from "../assets/coding.png"
+
 
 
 const skillSet = [
@@ -11,7 +20,7 @@ const skillSet = [
     "text":"HTML"
   },
   {
-    "img": bootstrap,
+    "img": css,
     "text":"CSS"
   },
   {
@@ -23,15 +32,15 @@ const skillSet = [
     "text":"Javascript"
   },
   {
-    "img": bootstrap,
+    "img": reduxToolkit,
     "text":"Redux Toolkit"
   },
   {
-    "img": bootstrap,
+    "img": tailwind,  
     "text":"Tailwind CSS"
   },
   {
-    "img": bootstrap,
+    "img": jquery,
     "text":"jQuery"
   },
   {
@@ -39,20 +48,20 @@ const skillSet = [
     "text":"Bootstrap"
   },
   {
-    "img": bootstrap,
+    "img": wordpress,
     "text":"Wordpress"
   },
   {
-    "img": bootstrap,
+    "img": git,
     "text":"Git"
   },
   {
-    "img": bootstrap,
+    "img": figma, 
     "text":"Figma(basic)"
   },
   {
-    "img": bootstrap,
-    "text":"CMS builders frontend"
+    "img": other,
+    "text":"Other CMS"
   },
 ]
 
@@ -67,7 +76,7 @@ const Skills = () => {
             </div>
             <div className='skills-columns'>
               {skillSet.map(function(skill){
-                return <div className='skill'>
+                return <div className='skill' key={skill.text}>
                   <img src={skill.img} alt={skill.text}></img>
                   <p className=''>{skill.text}</p>
                 </div>

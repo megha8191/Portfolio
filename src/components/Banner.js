@@ -4,14 +4,12 @@ import bannerImg from "./../assets/banner.png"
 const Banner = () => {
     return (
         <section className="home" id="home">
-             <ul className="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-
+            <ul className="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
-            
             <div className="home-content">
                 <h1>Hi , I'm <span>Megha</span></h1>
                 <div className="text-animate">
@@ -23,25 +21,22 @@ const Banner = () => {
                     development, I find joy in bringing creative designs to life through
                     code.
                 </p>
-
                 <div className="btn-box">
-                    <a href="#contact" className="btn">Hire Me</a>
-                    <a href="#about" className="btn">Let's Talk</a>
+                    <a href="mailto:meghachhabra819@gmail.com" className="btn">Hire Me</a>
+                    <a href="tel:9896870219" className="btn second-btn">Let's Talk</a>
                 </div>
                 <div className="home-sci">
-                {/* <a href="https://github.com/megha8191" target="_blank"
+                    {/* <a href="https://github.com/megha8191" target="_blank"
                 ><i className="bx bxl-github"></i>
                 </a> */}
-                <a href="https://www.linkedin.com/in/megha-chhabra-2a59b71ba/" target="_blank"
-                ><i className="bx bxl-linkedin"></i>
-                </a>
-                <a href="mailto:meghachhabra819@gmail.com" target="_blank"
-                ><i className="bx bx-envelope"></i>
-                </a>
+                    <a href="https://www.linkedin.com/in/megha-chhabra-2a59b71ba/" target="_blank"
+                    ><i className="bx bxl-linkedin"></i>
+                    </a>
+                    <a href="mailto:meghachhabra819@gmail.com" target="_blank"
+                    ><i className="bx bx-envelope"></i>
+                    </a>
+                </div>
             </div>
-            </div>
-            
-
             <div className="dev-pic">
                 <img src={bannerImg} alt="developer_image" />
             </div>
