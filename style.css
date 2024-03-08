@@ -621,6 +621,11 @@ img.myimg {
     color:#fff;
     z-index: 1;
 }
+.projects-list a{
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
 
 /* BreakPoints */
 
