@@ -15,7 +15,7 @@ const Index = () => {
     <>
       <Header/>
       <Main/>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   )
 }
